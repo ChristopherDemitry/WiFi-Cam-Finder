@@ -8,12 +8,15 @@ This  script is designed for educational purposes only.
 Install the following Python libraries before running the script:
 
 1-python3 -m venv .venv
+
 2-source .venv/bin/activate
+
 3-pip3 install -r requirement.txt
 
 pip install opencv-python numpy requests daemonize
 
-chmod +x instagram.py
-python3 instagram.py
+4-chmod +x instagram.py
+
+5-python3 instagram.py
 
 
