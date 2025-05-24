@@ -10,7 +10,13 @@ pip3 install -r requirement.txt
 
 Install the following Python libraries before running the script:
 
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install -r requirement.txt
+
 pip install opencv-python numpy requests daemonize
 
 chmod +x instagram.py
 python3 instagram.py
+
+
