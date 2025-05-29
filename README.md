@@ -1,22 +1,24 @@
-# instagram
+IP Camera Scanner (Educational Tool)
 This  script is designed for educational purposes only. 
-"This script is intended for educational purposes only. It is designed to demonstrate the dangers of using weak passwords on online platforms, specifically Instagram. By simulating a password guessing process, the script highlights how attackers might exploit simple or commonly used passwords to gain unauthorized access to accounts. The goal is not to promote hacking or unethical behavior, but rather to raise awareness about cybersecurity risks and encourage users to adopt stronger security practices, such as using complex passwords and enabling two-factor authentication. This tool should only be used in controlled, ethical, and legal environments for learning and awareness purposes."
+What the "IP Camera Scanner"
+Scan the Local Network (LAN):
+The tool would scan IP ranges on the local network (like 192.168.1.x, 10.0.0.x, etc.) to detect connected devices, specifically IP cameras.
+Identify Camera Vendor:
+It would analyze responses from devices (using ONVIF protocol or MAC address prefixes) to determine whether a device is from Dahua, Hikvision, or another vendor.
+Check Device Status:
+
+Online: If the camera responds to ping, HTTP, or RTSP requests.
+
+Offline: If there's no response.
+
+Display Live Results:
+View live video streams from cameras (if login credentials are known).
+
+Save device info for later use.
+Export camera list to a file.
 
 
 ## 📦 Requirements
 
-Install the following Python libraries before running the script:
-
-1-python3 -m venv .venv
-
-2-source .venv/bin/activate
-
-3-pip3 install -r requirement.txt
-
-pip install opencv-python numpy requests daemonize
-
-4-chmod +x instagram.py
-
-5-python3 instagram.py
 
 
