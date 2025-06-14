@@ -19,6 +19,7 @@ Security Awareness: Raises awareness of common security vulnerabilities in IoT d
 
 ## 📦 Installation
 git clone https://github.com/ChristopherDemitry/WiFi-Cam-Finder.git //
+cd WiFi-Cam-Finder//
 chmod +x CCTV //
 DOUBLE CLICK CCTV
 
