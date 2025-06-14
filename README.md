@@ -1,16 +1,18 @@
+WiFi Cam Finder
+WiFi Cam Finder is a tool designed to discover cameras within the surrounding area via Bluetooth and Wi-Fi networks. This project aims to detect devices such as IP cameras and other IoT (Internet of Things) cameras, identify potential vulnerabilities, and demonstrate the importance of securing such devices.
 
-This project is designed to discover surrounding cameras through Bluetooth and Wi-Fi networks. It aims to identify camera devices available in the vicinity and attempts to analyze potential vulnerabilities to access them. The tool is intended to demonstrate the importance of securing IoT (Internet of Things) devices like cameras and raise awareness about their vulnerabilities.
-
-Disclaimer: This project should be used responsibly and for educational or ethical purposes only. Unauthorized access to devices without consent is illegal and unethical. The purpose of this tool is to help improve security measures for IoT devices.
+Disclaimer: This tool should only be used for educational purposes or in environments where you have explicit permission. Unauthorized access to devices or networks is illegal and unethical.
 
 Features
-Bluetooth Camera Detection: Scans for nearby Bluetooth-enabled cameras.
+Wi-Fi Camera Detection: Scans for cameras connected to local Wi-Fi networks.
 
-Wi-Fi Camera Detection: Detects cameras connected to local Wi-Fi networks.
+Bluetooth Camera Detection: Detects Bluetooth-enabled cameras nearby.
 
-Password Cracking Simulation: Attempts to test the strength of security on discovered devices (for educational purposes only).
+Password Strength Simulation: Attempts to assess the security of devices (for educational purposes only).
 
-Security Awareness: Raises awareness about potential vulnerabilities in commonly used IoT cameras.
+Security Awareness: Raises awareness of common security vulnerabilities in IoT devices.
+
+
 
 
 
