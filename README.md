@@ -12,6 +12,11 @@ Password Strength Simulation: Attempts to assess the security of devices (for ed
 
 Security Awareness: Raises awareness of common security vulnerabilities in IoT devices.
 
+⚠️ Important:
+This tool is built exclusively for Linux systems.
+It does not support Windows and may not function properly on non-Linux environments.
+
+
 
 
 
