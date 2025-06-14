@@ -1,21 +1,18 @@
-IP Camera Scanner (Educational Tool)
-This  script is designed for educational purposes only. 
-What the "IP Camera Scanner"
-Scan the Local Network (LAN):
-The tool would scan IP ranges on the local network (like 192.168.1.x, 10.0.0.x, etc.) to detect connected devices, specifically IP cameras.
-Identify Camera Vendor:
-It would analyze responses from devices (using ONVIF protocol or MAC address prefixes) to determine whether a device is from Dahua, Hikvision, or another vendor.
-Check Device Status:
 
-Online: If the camera responds to ping, HTTP, or RTSP requests.
+This project is designed to discover surrounding cameras through Bluetooth and Wi-Fi networks. It aims to identify camera devices available in the vicinity and attempts to analyze potential vulnerabilities to access them. The tool is intended to demonstrate the importance of securing IoT (Internet of Things) devices like cameras and raise awareness about their vulnerabilities.
 
-Offline: If there's no response.
+Disclaimer: This project should be used responsibly and for educational or ethical purposes only. Unauthorized access to devices without consent is illegal and unethical. The purpose of this tool is to help improve security measures for IoT devices.
 
-Display Live Results:
-View live video streams from cameras (if login credentials are known).
+Features
+Bluetooth Camera Detection: Scans for nearby Bluetooth-enabled cameras.
 
-Save device info for later use.
-Export camera list to a file.
+Wi-Fi Camera Detection: Detects cameras connected to local Wi-Fi networks.
+
+Password Cracking Simulation: Attempts to test the strength of security on discovered devices (for educational purposes only).
+
+Security Awareness: Raises awareness about potential vulnerabilities in commonly used IoT cameras.
+
+
 
 
 ## 📦 Requirements
